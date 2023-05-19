@@ -1,0 +1,30 @@
+/*@import './base.css';*/
+#app {
+  /*width: auto;*/
+  /*height: auto;*/
+  margin: 0;
+  padding: 0;
+  /*padding: 2rem;*/
+  font-weight: normal;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  align-content:flex-start;
+  flex-direction: row;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1024px) {
+  /*body {*/
+  /*  display: flex;*/
+  /*  !*place-items: center;*!*/
+  /*}*/
+  /*#app {*/
+  /*  display: grid;*/
+  /*  grid-template-columns: 1fr 1fr;*/
+  /*  !*padding: 0 2rem;*!*/
+  /*}*/
+}
